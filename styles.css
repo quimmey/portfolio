@@ -5725,14 +5725,24 @@ body.white {
 .card-flex {
     display: flex;
     justify-content: space-around;
-    align-items: center;
 }
 .card .card-block {
     padding: 4rem;
     text-align: center;
 }
 
+@media (max-width:762px) {
+    
+    .card-flex {flex-flow: row wrap;
+    }
+
+    }
+
+
 @media (min-width:992px) {
+
+
+
     .card .card-block {
         padding: 6rem
     }
